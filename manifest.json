@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "NoAdZone",
+  "version": "1.0",
+  "description": "A simple ad blocker for webpages.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/448.png",
+    "128": "icons/1128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block_rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
