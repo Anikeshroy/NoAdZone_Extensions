@@ -3,6 +3,10 @@
 
 NoAdZone is a simple Chrome extension that blocks intrusive ads and enhances your browsing experience. This repository contains the source code for the extension.
 
+## Screenshots
+
+![App Screenshot](https://github.com/Anikeshroy/NoAdZone_Extensions/blob/6c1cc6dc3fc567e3e7f1d89f300baa2b0923e1c5/Screenshot.png)
+
 
 ## Features
 
